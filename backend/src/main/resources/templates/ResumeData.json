@@ -1,0 +1,58 @@
+{
+    "prompts": {
+    "Tell me about yourself": "about",
+    "What are your skills?": "skills",
+    "Where did you study?": "education",
+    "What projects have you worked on?": "projects",
+    "What languages do you speak?": "languages"
+},
+
+ "themes":[
+  {
+    "theme": "about",
+    "keywords": ["about", "yourself", "who are you"],
+    "response": "I am a student in Management Science and Technology at the Athens University of Economics and Business having also studied at the Technical University of Munich. During my studies i have followed various courses ranging from HR, E-business, Algorithms but i have chosen a specialization in Software and Data Analysis Technologies and i am very eager to gain practical experience in this field !. "
+  },
+  {
+    "theme": "education",
+    "keywords": ["education", "study", "university", "school"],
+    "response": "My primary education is pursuing my undergraduate degree in Management Science and Technology at the Athens University of Economics and Business while having also completed my student exchange at the Technical University of Munich and a Summer School at the University of Crete-CSD."
+  },
+  {
+    "theme": "projects",
+    "keywords": ["projects", "worked on", "developed", "github"],
+    "response": "I have completed various personal and group projects with the most relevant being in the following topics : CI/CD pipelines, Git workflows, Pytest testing, Spring Boot mobility app backend, and NavigaTUM contributor. View Full list on my GitHub:"
+  },
+  {
+    "theme": "skills",
+    "keywords": ["skills", "expertise", "technologies"],
+    "response": "I am skilled in the following Java, Python, HTML, CSS, Git, Microsoft Office."
+  },
+  {
+    "theme": "experience",
+    "keywords": ["experience", "work", "jobs", "roles"],
+    "response": "My experience outside of education has been being a Production Director and Manager at TEDxAUEB engaging in event planning, event production, logistics in a team-based enviroment."
+  },
+  {
+    "theme": "languages",
+    "keywords": ["languages", "speak", "fluency"],
+    "response": "The languages that i speak are : English (C2, ECPE certified), Greek (native speaker)."
+  },
+  {
+    "theme": "contact",
+    "keywords": ["contact", "email", "linkedin", "github"],
+    "response": "My contact info: Gmail: alkminisarig@gmail.com, github.com/alkminisarigeorgiou, linkedin.com/in/alkminisarigeorgiou"
+  },
+  {
+    "theme": "hobbies",
+    "keywords": ["hobbies", "interests", "free time"],
+    "response": "In my free time i really enjoy travelling and trying new restaurants."
+  }
+,
+  {
+    "theme":"cv",
+    "keywords": ["cv","resume","full"],
+    "response": "Of course! Here is my full CV: "
+  }
+ ]
+}
