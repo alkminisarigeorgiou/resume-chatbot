@@ -1,5 +1,5 @@
 {
-    "prompts": {
+    "samples": {
     "Tell me about yourself": "about",
     "What are your skills?": "skills",
     "Where did you study?": "education",
@@ -10,7 +10,7 @@
  "themes":[
   {
     "theme": "about",
-    "keywords": ["about", "yourself", "who are you"],
+    "keywords": [ "about yourself", "who are you"],
     "response": "I am a student in Management Science and Technology at the Athens University of Economics and Business having also studied at the Technical University of Munich. During my studies i have followed various courses ranging from HR, E-business, Algorithms but i have chosen a specialization in Software and Data Analysis Technologies and i am very eager to gain practical experience in this field !. "
   },
   {
