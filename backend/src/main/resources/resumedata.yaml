@@ -2,57 +2,48 @@ resume:
   samples:
     - input: Tell me about yourself
       theme: about
-    - input: What are your skills?
+    - input: Skills
       theme: skills
-    - input: Where did you study?
+    - input: Education
       theme: education
-    - input: What projects have you worked on?
+    - input: Projects
       theme: projects
-    - input: What languages do you speak?
+    - input: Languages
       theme: languages
 
   themes:
     - name: about
       keywords: ["about", "yourself", "who are you"]
-      response: >-
-        I am a student in Management Science and Technology at the Athens University of Economics and Business having also studied at the Technical University of Munich. During my studies i have followed various courses ranging from HR, E-business, Algorithms but i have chosen a specialization in Software and Data Analysis Technologies and i am very eager to gain practical experience in this field !.
+      response: "Hi :) I'm Alkmini!\nI am 21 years old and i was born and raised in the island of Crete.\nNow i am student of Management Science and Technology at the Athens University of Economics and Business.\nI also studied abroad at the Technical University of Munich.\nThrough my studies, I've explored fields like HR, E-business, and Algorithms, but my main focus is Software and Data Analysis Technologies."
 
     - name: education
       keywords: ["education", "study", "university", "school"]
-      response: >-
-        My primary education is pursuing my undergraduate degree in Management Science and Technology at the Athens University of Economics and Business while having also completed my student exchange at the Technical University of Munich and a Summer School at the University of Crete-CSD.
+      response: " Current degree:\nManagement Science and Technology at Athens University of Economics and Business\n\n️ Exchange Semester:\nTechnical University of Munich (TUM)\n\n Summer School:\nUniversity of Crete – Computer Science Department"
 
     - name: projects
       keywords: ["projects", "worked on", "developed", "github"]
-      response: >-
-        I have completed various personal and group projects with the most relevant being in the following topics : CI/CD pipelines, Git workflows, Pytest testing, Spring Boot mobility app backend, and NavigaTUM contributor. View Full list on my GitHub:
+      response: "I've worked on several personal and group projects, including:\n\n• Building CI/CD pipelines\n• Implementing Git workflows\n• Writing tests with Pytest\n• Developing a Spring Boot backend for a mobility app\n• Contributing to NavigaTUM\n\n🔗 You can explore more on my GitHub:\nhttps://github.com/alkminisarigeorgiou"
 
     - name: skills
       keywords: ["skills", "expertise", "technologies"]
-      response: >-
-        I am skilled in the following Java, Python, HTML, CSS, Git, Microsoft Office.
+      response: "My core skills include:\n\n• Java & Python\n• HTML & CSS\n• Git & GitHub\n• Microsoft Office tools\n• Agile methods (Scrum)\n\nI'm confident using these in both team and solo settings."
 
     - name: experience
       keywords: ["experience", "work", "jobs", "roles"]
-      response: >-
-        My experience outside of education has been being a Production Director and Manager at TEDxAUEB engaging in event planning, event production, logistics in a team-based enviroment.
+      response: "I’ve served as a Production Director and Manager @ TEDxAUEB, where I led:\n\n• Event planning and logistics\n• Production coordination\n• Cross-functional team collaboration\n\nThis experience truly shaped me-ask me about it! (or don't because i won't stop talking :)"
 
     - name: languages
       keywords: ["languages", "speak", "fluency"]
-      response: >-
-        The languages that i speak are : English (C2, ECPE certified), Greek (native speaker).
+      response: " I speak:\n\n• English — C2 level (ECPE)\n• Greek — Native speaker"
 
     - name: contact
       keywords: ["contact", "email", "linkedin", "github"]
-      response: >-
-        My contact info: Gmail: alkminisarig@gmail.com, github.com/alkminisarigeorgiou, linkedin.com/in/alkminisarigeorgiou
+      response: " Feel free to reach out:\n\n• Email: alkminisarig@gmail.com\n• GitHub: https://github.com/alkminisarigeorgiou\n• LinkedIn: https://linkedin.com/in/alkminisarigeorgiou"
 
     - name: hobbies
       keywords: ["hobbies", "interests", "free time"]
-      response: >-
-        In my free time i really enjoy travelling and trying new restaurants.
+      response: "Outside of tech, I really enjoy:\n\n• Traveling\n• Trying new restaurants and cuisines\n• Exploring different cultures"
 
     - name: cv
       keywords: ["cv", "resume", "full"]
-      response: >-
-        Of course! Here is my full CV:
+      response: "Of course! Here's my full CV:\n[]"

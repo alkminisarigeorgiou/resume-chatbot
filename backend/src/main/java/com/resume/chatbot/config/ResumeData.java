@@ -10,8 +10,8 @@ import java.util.List;
 @Component
 @ConfigurationProperties(prefix = "resume")
 public class ResumeData {
-    private List<Sample> samples;
-    private List<Theme> themes;
+    private List<Sample> samples  = List.of();
+    private List<Theme> themes = List.of();
 
     public List<Sample> getSamples() {
         return samples;
