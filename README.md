@@ -8,7 +8,7 @@ A full-stack chatbot that answers resume-related queries using structured data, 
 
 - **Frontend:** React.js + TailwindCSS + DaisyUI
 - **Backend:** Spring Boot (Java 17+)
-- **Data:** Stored in `resumedata.yaml` (resume themes + samples)
+- **Data:** Stored in `resumedata.yaml` (themes + samples + responses + keywords)
 
 ---
 
